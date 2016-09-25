@@ -72,8 +72,8 @@ def concatenate_images(img, img2):
   return vis
 
 if __name__ == '__main__':
-  parser = argparse.ArgumentParser(description='Process some integers.')
-  parser.add_argument('-i','--image',type=str, default='C:\wtf\Python\exercises\ComputerVision\hut.jpg', required=True,
+  parser = argparse.ArgumentParser(description='Process the a reduced color palette of an image.')
+  parser.add_argument('-i','--image',type=str, required=True,
                     help='the file to extract the palette')
   parser.add_argument('-c','--colors_palette', type=int, default=5,
                     help='number of colors you want to extract')
