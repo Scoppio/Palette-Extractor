@@ -16,11 +16,13 @@ You can use the script as a standalone and just feed it with its arguments, or a
 ### Arguments
 
 ---
-image: -i image sourced
 
-colors_palette: -c number of colors to extract
+* --image / -i :: image sourced
 
-silent: -s silent mode, do not show preview window
+* --colors_palette / -c :: number of colors to extract
+
+* --silent / -s :: silent mode, do not show preview window
+
 ---
 
 
