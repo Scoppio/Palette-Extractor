@@ -157,8 +157,8 @@ class PaletteSampler():
 if __name__ == '__main__':
     image_path = sys.argv[1]
     n = int(sys.argv[2])
+    percent = float(sys.argv[3])
     app = PaletteSampler()
     app.load_image(image_path)
     output_path = os.path.join(os.path.split(image_path)[0], "sampled_" + str(n) + "_" + os.path.split(image_path)[1])
-    app.render(n=n, output=output_path)
-
+    app.render(n=n, percent=percent, output=output_path)
